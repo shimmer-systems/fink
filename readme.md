@@ -29,7 +29,7 @@ my ideal system would have and/or be:
 - play nice in containers
     - getting nixos working inside of my proxmox containers was an adventure in and of itself, and i want to avoid that particular headache in the future. there's still some unresolved issues with my current working setup that i've just been kicking down the road, because i know how much of a headache they'd be to solve.
 - remote deployment, and managing multiple independent systems with the same config files 
-    - nix has stuff like colmena for the remote deployment department, and my friend [NotNite](https://github.com/notnite) shared her method of accomplishing something similar, but the common thread was that the systems in question either need to be exposed to the internet, or you need to be on the local network to update them. She got around the issue using tailscale, but there was the tiny issue of the entire process breaking down if tailscale got shut down before the upgrade was mostly complete. any system i'm going to use should, uh, not do that. 
+    - nix has stuff like colmena for the remote deployment department, and my friend [notnite](https://github.com/notnite) shared her method of accomplishing something similar, but the common thread was that the systems in question either need to be exposed to the internet, or you need to be on the local network to update them. she got around the issue using tailscale, but there was the tiny issue of the entire process breaking down if tailscale got shut down before the upgrade was mostly complete. any system i'm going to use should, uh, not do that. 
 
 #### nice-to-haves
 
